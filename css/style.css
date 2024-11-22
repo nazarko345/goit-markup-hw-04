@@ -136,13 +136,15 @@ h1,h2,h3,h4.h5,h6,p {
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url(../images/background-hero-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
             
 .hero-container {
-            
-}
-            
-.hero-section {
             
 }
             
@@ -226,6 +228,20 @@ button:focus {
     white-space: nowrap;
     border: 0;
 }
+
+.bs-logo-container {
+    background-color: #f4f4fd;;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+}
+
+.team-logo-socials {
+    min-width: 64px;
+    min-height: 64px;
+    margin: 24px 100px;
+}
             
             /* team section */
             
@@ -246,6 +262,8 @@ button:focus {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
             
 :for(:last-child) {
@@ -289,9 +307,50 @@ margin-right: 0;
     padding: 32px 0;
     border-radius: 0px 0px 4px 4px;
 }
+
+.social-media-container-ts {
+
+}
+
+.social-media-list-ts {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.social-media-logo-wrapper-ts {
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social-media-logo-ts {
+    fill: #FFFFFF;
+
+}
+
+.social-media-logo-wrapper-ts:hover,
+.social-media-logo-wrapper-ts:focus {
+    background-color: #404BBF;
+}
+
+.
+
+
             
             /* portfolio section */
-            
+
+.portfolio-widget {
+    width: calc((100% - 48px) / 3);
+    min-height: 424px;
+
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
@@ -303,10 +362,6 @@ margin-right: 0;
     margin-bottom: 72px;
 }
             
-.portfolio-widget {
-     width: calc((100% - 48px) / 3);
-}
-            
 .portfolio-subtitle {
     font-weight: 400;
     font-size: 16px;
@@ -314,7 +369,7 @@ margin-right: 0;
     letter-spacing: 0.02em;
     color: #434455;
 }
-            
+           
 .portfolio-line {
     font-weight: 500;
     font-size: 20px;
@@ -322,7 +377,7 @@ margin-right: 0;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-            }
+}
             
 .portfolio-list {
     display: flex;
@@ -346,6 +401,12 @@ margin-right: 0;
     border: 1px solid #e7e9fc;
     border-top: none;
 } 
+
+.portfolio-widget:hover,
+.portfolio-widget:focus {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
             
             /* footer page */
             
@@ -367,6 +428,7 @@ margin-right: 0;
     line-height: 1.5;
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
 }
             
 .paragraph-text {
@@ -379,7 +441,48 @@ margin-right: 0;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 447px;
+    margin-right: 0px;
     overflow: hidden;
 }            
+
+.social-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.social-media-container {
+    max-width: 208px;
+    max-height: 80px;
+    align-items: center;
+    margin-right: 400px;
+    margin-left: 120px;
+}
+
+.social-media-logo-wrapper {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.social-media-logo {
+    fill: #F4F4FD;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.social-media-logo-wrapper:hover,
+.social-media-logo-wrapper:focus {
+    background-color: #31D0AA;
+}
