@@ -485,7 +485,11 @@ margin-right: 0;
     line-height: 1.5;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.main-footer-container {
     display: flex;
+    align-items: baseline;
 }
             
 .paragraph-text {
@@ -493,13 +497,13 @@ margin-right: 0;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-            
+         
 .footer-container {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 447px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: 120px;
     overflow: hidden;
 }            
 
