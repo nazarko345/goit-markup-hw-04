@@ -78,7 +78,7 @@ h1,h2,h3,h4.h5,h6,p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
             
 .header-logo .logo-part {
@@ -479,7 +479,6 @@ margin-right: 0;
             /* footer page */
             
 .footer-logo {
-    margin-bottom: 16px;
     display: inline-block;
 }
             
@@ -508,7 +507,6 @@ margin-right: 0;
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-bottom: 16px;
 }
          
 .footer-container {
@@ -516,8 +514,8 @@ margin-right: 0;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: 120px;
     overflow: hidden;
+    margin-right: 120px;
 }            
 
 .social-media-title {
@@ -526,6 +524,8 @@ margin-right: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
+
 }
 
 .social-media-container {
