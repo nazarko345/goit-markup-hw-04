@@ -20,8 +20,7 @@ ol {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
-            
+    padding: 0 15px;      
 }
             
 .img-picture {
@@ -123,7 +122,7 @@ h1,h2,h3,h4.h5,h6,p {
 }
 .active {
     color: #404bbf;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-list:last-child {
@@ -480,6 +479,7 @@ margin-right: 0;
             
 .footer-logo {
     display: inline-block;
+    margin-bottom: 16px;
 }
             
 .footer-logo .logo-part {
@@ -510,11 +510,6 @@ margin-right: 0;
 }
          
 .footer-container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    overflow: hidden;
     margin-right: 120px;
 }            
 
