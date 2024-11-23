@@ -106,6 +106,7 @@ h1,h2,h3,h4.h5,h6,p {
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link.active::after {
@@ -133,6 +134,7 @@ h1,h2,h3,h4.h5,h6,p {
 .contacts-link:hover,
 .contacts-link:focus {
     color: #404bbf;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
             
 .contacts {
@@ -144,7 +146,7 @@ h1,h2,h3,h4.h5,h6,p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
             
 .nav-item {
