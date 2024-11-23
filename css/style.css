@@ -336,10 +336,6 @@ margin-right: 0;
     border-radius: 0px 0px 4px 4px;
 }
 
-.social-media-container-ts {
-
-}
-
 .social-media-list-ts {
     display: flex;
     gap: 24px;
@@ -492,6 +488,10 @@ margin-right: 0;
     margin-bottom: 16px;
     display: inline-block;
 }
+
+.main-footer-container {
+    margin-right: 120px;
+}
             
 .footer-logo .logo-part {
     color: #f4f4fd;
@@ -562,6 +562,11 @@ margin-right: 0;
     display: flex;
     gap: 16px;
     margin-top: 16px;
+}
+
+.social-media-logo-list-item {
+    width: 40px;
+    height: 40px;
 }
 
 .social-media-logo-wrapper:hover,
