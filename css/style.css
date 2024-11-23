@@ -504,12 +504,14 @@ margin-right: 0;
 .main-footer-container {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
             
 .paragraph-text {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
 }
          
 .footer-container {
@@ -533,7 +535,7 @@ margin-right: 0;
     max-width: 208px;
     max-height: 80px;
     align-items: center;
-    margin-right: 400px;
+    margin-right: 120px;
     margin-left: 120px;
 }
 
