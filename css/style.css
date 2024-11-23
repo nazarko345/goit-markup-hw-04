@@ -357,7 +357,7 @@ margin-right: 0;
 
 }
 
-.social-media-link {
+.social-media-link-ts {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -368,8 +368,8 @@ margin-right: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media-link:hover,
-.social-media-link:focus {
+.social-media-link-ts:hover,
+.social-media-link-ts:focus {
     background-color: #404bbf;
 }
      
